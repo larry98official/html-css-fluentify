@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-fullwidth {
+    background-color: #0d325a;
+}
+
+.container {
+    width: 83%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #0d325a;
+}
+
+header {
+    height: 100px;
+    padding-top: 15px;
+}
+
+ul {
+    display: inline-block;
+    position: absolute;
+    margin-top: 15px;
+}
+
+li {
+    color: white;
+    font-size: 11px;
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.helptext {
+    display: inline-block;
+    float: left;
+    margin-left: 30px;
+}
+
+.login {
+    position: relative;
+    display: inline-block;
+    left: 700px;
+    bottom: 53px;
+    margin-top: 19px;
+}
+
+.tutor {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+button {
+    color: white;
+    font-size: 11px;
+    padding: 9px 25px;
+    border: 1px solid lightblue;
+    border-radius: 5px;
+    background-color: #0d325a;
+    cursor: pointer;
+}
+
+.piano {
+    background-color: #7fb802;
+    border: 0;
+}
+
+.banner {
+    height: 400px;
+    background-image: url(https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/oldman.png);
+    background-size: cover;
+    position: relative;
+    left: 40%;
+
+}
+
+.touch {
+    position: relative;
+    right: 40%;
+}
+
+h1 {
+    position: relative;
+    top: 90px;
+    color: white;
+    font-size: 45px;
+}
+
+#middle{
+    position: relative;
+    top: 20px;
+    font-size: 12px;
+    padding: 15px 25px;
+}
+
+.grigio {
+    height: 155px;
+    background-color: #f9f9f9;
+    padding: 40px 20px 30px 20px;
+}
+
+.riga-grigia {
+    background-color: #f9f9f9;
+}
+
+h4 {
+    text-align: center;
+    font-size: 24px;
+    padding: 8px 0;
+}
+
+p {
+    color: #999999;
+    text-align: center;
+    font-size: 18px;
+    padding: 0 0 16px;
+}
+
+.bianco {
+    height: 500px;
+    background-color: white;
+    padding: 15px 0;
+}
+
+.riga-bianca {
+    width: 100%;
+    height: 180px;
+    background-color: white;
+    padding-top: 20px;
+}
+
+.cards {
+    width: 33.33%;
+    height: 250px;
+    float: left;
+    text-align: center;
+    padding: 0 25px;
+}
+
+#profile {
+    height: 160px;
+    margin-bottom: 50px;
+}
+
+#computer{
+    height: 143px;
+    margin-bottom: 67px;
+}
+
+#filedoc{
+    height: 152px;
+    margin-bottom: 58px;
+}
+
+.descrizione {
+    text-align: justify;
+}
+
+h6 {
+    color: #7fb802;
+    font-size: 23px;-
+    margin-top: 50px;
+}
+
+hr {
+    position: relative;
+    left: 50%;
+    height: 2px;
+    width: 35px;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
