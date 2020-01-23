@@ -12,6 +12,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 
 .container-fullwidth {
@@ -79,16 +80,15 @@ button {
 
 .banner {
     height: 400px;
-    background-image: url(https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/oldman.png);
-    background-size: cover;
     position: relative;
-    left: 40%;
-
 }
 
-.touch {
+.people {
     position: relative;
-    right: 40%;
+    transform: scale(0.5);
+    left: 30px;
+    bottom: 387px;
+
 }
 
 h1 {
